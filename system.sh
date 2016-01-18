@@ -24,7 +24,10 @@ mount /dev/sda4 /mnt/zz
 ping -c 4 www.baidu.com
 
 # set the sourse list：
-echo "Server = http://mirrors.ustc.edu.cn/archlinux/\$repo/os/\$arch" > /etc/pacman.d/mirrorlist 
+#echo "Server = http://mirrors.ustc.edu.cn/archlinux/\$repo/os/\$arch" > /etc/pacman.d/mirrorlist 
+sed -i '1i\Server = http://mirrors.ustc.edu.cn/archlinux/\$repo/os/\$arch' /etc/pacman.d/mirrorlist 
+
+
 # update the mirrors data
 pacman -Sy
 
@@ -56,17 +59,17 @@ echo "zh_CN.UTF-8 UTF-8" >> /etc/locale.gen
 locale-gen
 
 # create locale.conf：
-# echo LANG=zh_CN.UTF-8 > /etc/locale.conf
+echo LANG=zh_CN.UTF-8 > /etc/locale.conf
 
 #Set the system time ：
-# ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
 #Set the hardware tiem ：
 hwclock --systohc --utc
 
 #Set the hostname：
-# echo ucb > /etc/hostname
-
+echo ucb > /etc/hostname
+#----------------------------------------------------------
 #Add the same hostname in the /etc/hosts ：
 # nano /etc/hosts
 
@@ -74,6 +77,7 @@ hwclock --systohc --utc
 #<ip-address> <hostname.domain.org> <hostname>
 ##127.0.0.1     localhost.localdomain localhost  archlinuxpc
 ##::1           localhost.localdomain localhost  archlinuxpc
+#----------------------------------------------------------
 
 #Link the network automatically：
 # systemctl start dhcpcd
@@ -124,7 +128,9 @@ pacman -S xf86-video-vesa
 systemctl enable lxdm
 
 #Install the software：
-  pacman -S fcitx tar leafpad xarchiver firefox firefox-i18n-zh-cn firefox-adblock-plus flashplugin
+pacman -S tar leafpad xarchiver firefox firefox-i18n-zh-cn firefox-adblock-plus flashplugin
+#INstall the  typewriting :
+pacman -S fcitx fcitx-configtool fcitx-gtk2 fcitx-gtk3 fcitx-googlepinyin fcitx-qt4
 
 #Install font：
 pacman -S ttf-dejavu wqy-zenhei wqy-microhei
