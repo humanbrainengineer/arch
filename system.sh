@@ -149,6 +149,8 @@ echo "export XIM_PROGRAM=fcitx " >> ~/.xprofile
 echo "fcitx &" >> ~/.xprofile
 #----------------------------------
 
-#Reboot the machine：
+#Reboot the machine after 3 seconds：
+echo "Reboot the machine after 3 seconds："
+sleep 3
 reboot
 
