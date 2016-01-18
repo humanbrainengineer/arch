@@ -1,4 +1,4 @@
-# 1.
+# Harddisk
 # cfdisk command 
 # sda1- boot:512MiB   #sda2- /:61440MiB    #sda3- swap:4096MiB   #sda4- /zz:remaining 
 
