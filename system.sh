@@ -132,6 +132,9 @@ pacman -S tar leafpad xarchiver firefox firefox-i18n-zh-cn firefox-adblock-plus 
 #INstall the  typewriting :
 pacman -S fcitx fcitx-configtool fcitx-gtk2 fcitx-gtk3 fcitx-googlepinyin fcitx-qt4
 
+#Install network tools
+pacman -S net-tools dnsutils inetutils iproute2
+
 #Install font：
 pacman -S ttf-dejavu wqy-zenhei wqy-microhei
 
