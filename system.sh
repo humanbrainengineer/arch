@@ -22,12 +22,19 @@ mount /dev/sda4 /mnt/zz
 
 #test network：
 ping -c 4 www.baidu.com
-
-# set the sourse list：
+#--------------------------------------#--------------------------------------
+# Add the sourse list：
 #echo "Server = http://mirrors.ustc.edu.cn/archlinux/\$repo/os/\$arch" > /etc/pacman.d/mirrorlist 
 sed -i '1i\Server = http://mirrors.ustc.edu.cn/archlinux/\$repo/os/\$arch' /etc/pacman.d/mirrorlist 
 
+# wiki yaourt 
 
+echo "[archlinuxcn]" >> /etc/pacman.conf
+echo "#The Chinese Arch Linux communities packages." >> /etc/pacman.conf
+echo "SigLevel = Optional TrustAll" >> /etc/pacman.conf
+echo "Server   = https://mirrors.ustc.edu.cn/archlinuxcn/\$arch" >> /etc/pacman.conf
+
+#--------------------------------------#--------------------------------------
 # update the mirrors data
 pacman -Sy
 
@@ -128,7 +135,8 @@ pacman -S xf86-video-vesa
 systemctl enable lxdm
 
 #Install the software：
-pacman -S sudo tar leafpad xarchiver chromium firefox firefox-i18n-zh-cn firefox-adblock-plus flashplugin epdfview tigervnc
+pacman -S sudo tar vim leafpad xarchiver chromium firefox firefox-i18n-zh-cn firefox-adblock-plus flashplugin epdfview tigervnc yaourt wps-office
+
 #INstall the  typewriting :
 pacman -S fcitx fcitx-configtool fcitx-gtk2 fcitx-gtk3 fcitx-googlepinyin fcitx-qt4
 
