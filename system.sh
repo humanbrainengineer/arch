@@ -140,8 +140,10 @@ pacman -S sudo tar vim leafpad xarchiver bcloud chromium firefox firefox-i18n-zh
 #INstall the  typewriting :
 pacman -S fcitx fcitx-configtool fcitx-gtk2 fcitx-gtk3 fcitx-googlepinyin fcitx-qt4
 
+
+
 #Install virtual machine
-pacman -S playonlinux virtualbox   #wine q4wine
+pacman -S virtualbox   #wine q4wine playonlinux
 
 #Install network tools
 pacman -S net-tools dnsutils inetutils iproute2
@@ -149,7 +151,11 @@ pacman -S net-tools dnsutils inetutils iproute2
 #Install font：
 pacman -S ttf-dejavu wqy-zenhei wqy-microhei
 
+#Install teamviewer
+yaourt teamviewer #teamviewer --daemon start
 
+#Install office
+yaourt wps-office
 #----------------------------------
 #Configure input：
 # nano ~/.profile
