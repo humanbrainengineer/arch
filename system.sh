@@ -128,12 +128,12 @@ pacman -S xf86-video-vesa
 systemctl enable lxdm
 
 #Install the software：
-pacman -S tar leafpad xarchiver chromium firefox firefox-i18n-zh-cn firefox-adblock-plus flashplugin epdfview tigervnc
+pacman -S sudo tar leafpad xarchiver chromium firefox firefox-i18n-zh-cn firefox-adblock-plus flashplugin epdfview tigervnc
 #INstall the  typewriting :
 pacman -S fcitx fcitx-configtool fcitx-gtk2 fcitx-gtk3 fcitx-googlepinyin fcitx-qt4
 
 #Install virtual machine
-pacman -S playonlinux wine virtualbox
+pacman -S playonlinux wine q4wine virtualbox
 
 #Install network tools
 pacman -S net-tools dnsutils inetutils iproute2
