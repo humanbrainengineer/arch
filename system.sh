@@ -135,7 +135,7 @@ pacman -S xf86-video-vesa
 systemctl enable lxdm
 
 #Install the software：
-pacman -S sudo tar vim leafpad xarchiver bcloud chromium firefox firefox-i18n-zh-cn firefox-adblock-plus flashplugin epdfview tigervnc yaourt wps-office
+pacman -S sudo awesome tar vim leafpad xarchiver bcloud chromium firefox firefox-i18n-zh-cn firefox-adblock-plus flashplugin epdfview tigervnc yaourt wps-office
 
 #INstall the  typewriting :
 pacman -S fcitx fcitx-configtool fcitx-gtk2 fcitx-gtk3 fcitx-googlepinyin fcitx-qt4
