@@ -137,7 +137,7 @@ pacman -S xf86-video-vesa
   pacman -S xorg xorg-xinit
 
 # Install LXDM manager and LXDE desktop：
- pacman -S lxdm lxde xfce4
+ pacman -S lxdm lxde xfce4 plasma
 
 # Set lxdm starts in the init：
 systemctl enable lxdm
@@ -147,8 +147,6 @@ pacman -S sudo ntfs-3g awesome tar vim leafpad xarchiver bcloud chromium firefox
 
 #INstall the  typewriting :
 pacman -S fcitx fcitx-configtool fcitx-gtk2 fcitx-gtk3 fcitx-googlepinyin fcitx-qt4
-
-
 
 #Install virtual machine
 pacman -S virtualbox   #wine q4wine playonlinux
