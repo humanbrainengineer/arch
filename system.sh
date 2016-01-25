@@ -164,7 +164,7 @@ yaourt teamviewer #teamviewer --daemon start
 yaourt wps-office
 
 #Install git 
-pacman -S git
+pacman -S git openssh
 #----------------------------------
 #Configure input：
 # nano ~/.profile
