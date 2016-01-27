@@ -170,6 +170,12 @@ pacman -S git
 systemctl enable sshd
 systemctl start sshd  
 #systemctl restart sshd 
+#:
+#      /etc/hosts.deny                #默认拒绝所有连接
+#      /etc/hosts.allow                #默认没有任何允许连接,需要手动添加,例:
+
+     #Example #vi /etc/hosts.allow
+              #sshd:192.168.1.100:ALLOW      #允许192.168.1.100的电脑使用ssh来访问这台电脑.
 #----------------------------------
 #Configure input：
 # nano ~/.profile
