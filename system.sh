@@ -174,9 +174,10 @@ systemctl start sshd
 #      /etc/hosts.deny                # 
 #      /etc/hosts.allow                # 
 
-#Example #vi /etc/hosts.allow
- #sshd:192.168.1.100:ALLOW      #Allow the 192.168.1.100host to use the ssh to access the localhost.
-#At last ,the openssh can not allowed by root account .It need to modify the /etc/ssh/sshd_config.
+#Example 
+#vi /etc/hosts.allow
+#sshd:192.168.1.100:ALLOW          #Allow the 192.168.1.100host to use the ssh to access the localhost.
+#At last ,the openssh can not allowed by root account .It need to modify the : vi /etc/ssh/sshd_config.  #checked
 #Make the ---> PermitRootLogin yes  # //remove the #.  
 
 
