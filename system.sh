@@ -166,7 +166,7 @@ yaourt wps-office
 #Install git 
 pacman -S git 
 
-#Install openssh #it can be linked by other PCS.
+#Install openssh (git need it)#it can be linked by other PCS.
 systemctl enable sshd
 systemctl start sshd  
 #systemctl restart sshd 
