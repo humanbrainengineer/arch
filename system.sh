@@ -167,7 +167,8 @@ yaourt wps-office
 pacman -S git 
 
 #Install zip
-pacman -S bzip2 lbzip2 xz lrzip arj 7zip 
+pacman -S bzip2 lbzip2 xz lrzip arj 7zip gzip fcrackzip pigz zip
+
 
 #Install openssh (git need it)#it can be linked by other PCS.
 systemctl enable sshd
