@@ -164,7 +164,11 @@ yaourt teamviewer #teamviewer --daemon start
 yaourt wps-office
 
 #Install git 
-pacman -S git openssh
+pacman -S git 
+
+#Install openssh #it can be linked by other PCS.
+systemctl enable sshd
+systemctl start sshd  
 #----------------------------------
 #Configure input：
 # nano ~/.profile
