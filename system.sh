@@ -169,6 +169,7 @@ pacman -S git
 #Install openssh #it can be linked by other PCS.
 systemctl enable sshd
 systemctl start sshd  
+#systemctl restart sshd 
 #----------------------------------
 #Configure input：
 # nano ~/.profile
