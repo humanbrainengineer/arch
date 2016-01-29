@@ -137,7 +137,7 @@ pacman -S xf86-video-vesa
   pacman -S xorg xorg-xinit
 
 # Install LXDM manager and LXDE desktop：
- pacman -S lxdm lxde xfce4 plasma
+ pacman -S lxdm lxde xfce4 plasma mate gnome 
 
 # Set lxdm starts in the init：
 systemctl enable lxdm
@@ -168,6 +168,17 @@ pacman -S git
 
 #Install zip
 pacman -S bzip2 lbzip2 xz lrzip arj 7zip gzip fcrackzip pigz zip
+
+
+#Install network manager ---wiki NetworkManager 
+# pacman -S network-manager-applet xfce4-notifyd  //xfce
+# pacman -S networkmanager
+# pacman -S hicolor-icon-theme gnome-icon-theme
+#pacman -S gnome-keyring
+# pacman -S network-manager-applet xfce4-notifyd hicolor-icon-theme gnome-icon-theme
+# systemctl enable NetworkManager
+# # reboot NetworkManager：
+# systemctl start NetworkManager
 
 
 #Install openssh (git need it)#it can be linked by other PCS.
