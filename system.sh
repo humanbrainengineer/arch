@@ -189,6 +189,9 @@ pacman -S bzip2 lbzip2 xz lrzip arj 7zip gzip fcrackzip pigz zip
 #lighttable： yaourt lighttable
 # atom （archlinuxcn-repo）： yaourt atom
 
+#Install media
+# pacman -S vlc smplayer
+
 #Install 
 # pacman -S docky 
 
