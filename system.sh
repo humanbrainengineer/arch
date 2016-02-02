@@ -143,7 +143,7 @@ pacman -S xf86-video-vesa
 systemctl enable lxdm
 
 #Install the software：
-pacman -S sudo gcc ntfs-3g eog awesome tar vim uget leafpad xarchiver bcloud filezilla chromium firefox firefox-i18n-zh-cn firefox-adblock-plus flashplugin epdfview tigervnc yaourt wps-office
+pacman -S sudo gcc ntfs-3g eog awesome tar uget leafpad xarchiver bcloud filezilla chromium firefox firefox-i18n-zh-cn firefox-adblock-plus flashplugin epdfview tigervnc yaourt wps-office
 
 #INstall the  typewriting :
 pacman -S fcitx fcitx-configtool fcitx-gtk2 fcitx-gtk3 fcitx-googlepinyin fcitx-qt4
@@ -169,6 +169,15 @@ pacman -S git
 #Install zip
 pacman -S bzip2 lbzip2 xz lrzip arj 7zip gzip fcrackzip pigz zip
 
+#Install IDE
+# base：
+# pacman -S vim  #vimrc file   https://github.com/ma6174/vim
+
+# python ：  --------------------------------------------------------
+# Sublime：http://www.sublimetext.com/    yaourt sublime
+# PyCharm ： http://www.jetbrains.com     pacman -S pycharm    #1) pycharm-community  2) pycharm-professional
+# wing ： https://wingware.com/downloads
+# eric： pacman -S eric
 
 #Install network manager ---wiki NetworkManager 
 # pacman -S network-manager-applet xfce4-notifyd  //xfce
