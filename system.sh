@@ -181,6 +181,11 @@ pacman -S bzip2 lbzip2 xz lrzip arj 7zip gzip fcrackzip pigz zip
 # PyDev ： vim + PyDev 。
 # Aptana： yaourt aptana 
 # netbeans ：yaourt netbeans  or pacman -S netbeans
+# bluefish ： pacman -S bluefish  or yaourt bluefish
+# komodo ide：not free
+# anjuta ：yaourt anjuta  or pacman -S anjuta
+# monodevelop ：pacman -S monodevelop  or yaourt monodevelop
+#CLion ：net free --30days
 
 #Install network manager ---wiki NetworkManager 
 # pacman -S network-manager-applet xfce4-notifyd  //xfce
