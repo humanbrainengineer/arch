@@ -186,6 +186,9 @@ pacman -S bzip2 lbzip2 xz lrzip arj 7zip gzip fcrackzip pigz zip
 # anjuta ：yaourt anjuta  or pacman -S anjuta
 # monodevelop ：pacman -S monodevelop  or yaourt monodevelop
 #CLion ：net free --30days
+#lighttable： yaourt lighttable
+
+
 
 #Install network manager ---wiki NetworkManager 
 # pacman -S network-manager-applet xfce4-notifyd  //xfce
