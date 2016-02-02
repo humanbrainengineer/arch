@@ -189,6 +189,15 @@ pacman -S bzip2 lbzip2 xz lrzip arj 7zip gzip fcrackzip pigz zip
 #lighttable： yaourt lighttable
 
 
+#Install 
+# pacman -S docky 
+
+#Install the terminal
+# pacman -S yakuake guake tilda
+
+
+# Mind mapping software 
+ # pacman -S dia freemind vym
 
 #Install network manager ---wiki NetworkManager 
 # pacman -S network-manager-applet xfce4-notifyd  //xfce
