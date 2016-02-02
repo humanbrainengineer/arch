@@ -187,14 +187,16 @@ pacman -S bzip2 lbzip2 xz lrzip arj 7zip gzip fcrackzip pigz zip
 # monodevelop ：pacman -S monodevelop  or yaourt monodevelop
 #CLion ：net free --30days
 #lighttable： yaourt lighttable
-
+# atom （archlinuxcn-repo）： yaourt atom
 
 #Install 
 # pacman -S docky 
 
 #Install the terminal
-# pacman -S yakuake guake tilda
+# pacman -S yakuake guake tilda terminator
 
+# Install cut screem
+# pacman -S shutter
 
 # Mind mapping software 
  # pacman -S dia freemind vym
