@@ -180,7 +180,7 @@ pacman -S bzip2 lbzip2 xz lrzip arj 7zip gzip fcrackzip pigz zip
 # eric： pacman -S eric
 # PyDev ： vim + PyDev 。
 # Aptana： yaourt aptana 
-
+# netbeans ：yaourt netbeans  or pacman -S netbeans
 
 #Install network manager ---wiki NetworkManager 
 # pacman -S network-manager-applet xfce4-notifyd  //xfce
