@@ -150,6 +150,7 @@ pacman -S fcitx fcitx-configtool fcitx-gtk2 fcitx-gtk3 fcitx-googlepinyin fcitx-
 
 #Install virtual machine
 pacman -S virtualbox   #wine q4wine playonlinux   #virtualbox: /sbin/rcvboxdrv setup
+yaourt vmwarea    #or download the vmware.com 's sh install pakeage
 
 #Install network tools
 pacman -S net-tools dnsutils inetutils iproute2
