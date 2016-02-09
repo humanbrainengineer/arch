@@ -173,6 +173,8 @@ pacman -S bzip2 lbzip2 xz lrzip arj 7zip gzip fcrackzip pigz zip
 #Install IDE
 # base：
 # pacman -S vim  #vimrc file   https://github.com/ma6174/vim  ##http://www.cnblogs.com/ma6174/archive/2011/12/10/2283393.html
+#                 VIm plugin：https://github.com/hellotomcat/supersearch
+
 
 # python ：  --------------------------------------------------------
 # Sublime：http://www.sublimetext.com/    yaourt sublime
