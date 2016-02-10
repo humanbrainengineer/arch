@@ -175,7 +175,12 @@ pacman -S bzip2 lbzip2 xz lrzip arj 7zip gzip fcrackzip pigz zip
 # pacman -S vim  #vimrc file   https://github.com/ma6174/vim  ##http://www.cnblogs.com/ma6174/archive/2011/12/10/2283393.html
 #                 VIm plugin：https://github.com/hellotomcat/supersearch
 #                http://sheet.shiar.nl/vi
+#-------------------------------------------------------------------
+# Eclipse：
+#pacman -S eclipse 
 
+
+#-------------------------------------------------------------------
 # python ：  --------------------------------------------------------
 # Sublime：http://www.sublimetext.com/    yaourt sublime
 # PyCharm ： http://www.jetbrains.com     pacman -S pycharm    #1) pycharm-community  2) pycharm-professional  #not free
