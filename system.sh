@@ -181,7 +181,7 @@ pacman -S bzip2 lbzip2 xz lrzip arj 7zip gzip fcrackzip pigz zip
 
 
 #-------------------------------------------------------------------
-# python ：  --------------------------------------------------------
+# python ：  ----------------------- & use the pycharm and sublime &---------------------------------
 # Sublime：http://www.sublimetext.com/    yaourt sublime
 # PyCharm ： http://www.jetbrains.com     pacman -S pycharm    #1) pycharm-community  2) pycharm-professional  #not free
 #             Register------input server address :  http://idea.lanyus.com    or License server address：http://www.5ztx.cn/jetbrainsiGfiowggf8hMUSGHevbf8Uz
