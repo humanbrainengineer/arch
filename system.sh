@@ -248,7 +248,7 @@ systemctl start sshd
 #Configure input：
 # nano ~/.profile
 
-#Content：
+#Content：   // there are writen in common user---ucb
 echo "export XIM=fcitx" >> ~/.xprofile
 echo "export XMODIFIERS=\"@im=fcitx\" " >> ~/.xprofile
 echo "export GTK_IM_MODULE=fcitx" >> ~/.xprofile
