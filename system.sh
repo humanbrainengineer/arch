@@ -127,6 +127,9 @@ passwd ucb
 #Test the network：
 ping -c 4 www.baidu.com
 
+#Install font：
+pacman -S ttf-dejavu wqy-zenhei wqy-microhei
+
 #Install the sound driver ：
 pacman -S alsa-utils
 
@@ -155,8 +158,7 @@ yaourt vmwarea    #or download the vmware.com 's sh install pakeage
 #Install network tools
 pacman -S net-tools dnsutils inetutils iproute2
 
-#Install font：
-pacman -S ttf-dejavu wqy-zenhei wqy-microhei
+
 
 #Install teamviewer
 yaourt teamviewer #teamviewer --daemon start
