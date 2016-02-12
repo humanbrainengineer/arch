@@ -227,6 +227,7 @@ pacman -S bzip2 lbzip2 xz lrzip arj p7zip gzip fcrackzip pigz zip
 
 
 #Install openssh (git need it)#it can be linked by other PCS.
+pacman -S openssh
 systemctl enable sshd
 systemctl start sshd  
 #systemctl restart sshd 
