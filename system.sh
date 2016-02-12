@@ -226,6 +226,13 @@ pacman -S bzip2 lbzip2 xz lrzip arj p7zip gzip fcrackzip pigz zip
 # systemctl start NetworkManager
 
 
+# wget http://www.rarlab.com/rar/rarlinux-x64-5.3.0.tar.gz
+7z x rarlinux-x64-5.3.0.tar.gz
+tar xzvf rarlinux-x64-5.3.0.tar.gz 
+cd rar
+make && make install
+
+
 #Install openssh (git need it)#it can be linked by other PCS.
 pacman -S openssh
 systemctl enable sshd
