@@ -144,7 +144,7 @@ pacman -S xf86-video-vesa
 
 
 # Set the .xinitrc file:
-echo "exec /usr/bin/lxsession" >> ~/.xinitrc 
+# echo "exec /usr/bin/lxsession" >> ~/.xinitrc 
 
 
 # Set lxdm starts in the init：
