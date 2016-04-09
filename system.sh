@@ -142,6 +142,11 @@ pacman -S xf86-video-vesa
 # Install LXDM manager and LXDE desktop：
  pacman -S lxdm lxde xfce4 plasma mate gnome 
 
+
+# Set the .xinitrc file:
+echo "exec /usr/bin/lxsession" >> ~/.xinitrc 
+
+
 # Set lxdm starts in the init：
 systemctl enable lxdm
 
