@@ -175,6 +175,11 @@ yaourt wps-office
 #Install git 
 pacman -S git 
 
+
+#Install Dropbox
+yaourt dropbox
+
+
 #Install zip
 pacman -S bzip2 lbzip2 xz lrzip arj p7zip gzip fcrackzip pigz zip
 
