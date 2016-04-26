@@ -34,6 +34,7 @@ sed -i '1i\Server = http://mirrors.ustc.edu.cn/archlinux/\$repo/os/\$arch' /etc/
 echo "[multilib]" >> /etc/pacman.conf
 echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
 # wiki yaourt 
+
 # Set the pacman.conf 2
 echo "[archlinuxcn]" >> /etc/pacman.conf
 echo "#The Chinese Arch Linux communities packages." >> /etc/pacman.conf
