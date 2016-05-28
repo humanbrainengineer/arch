@@ -7,7 +7,7 @@ The built-in option to remove all the cached packages that are not currently ins
 
 # pacman -Sc
 
-
+   
 
 Warning:
 
