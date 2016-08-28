@@ -2,7 +2,7 @@
 # Harddisk
 # cfdisk command 
 # sda1- boot:512MiB   #sda2- /:61440MiB    #sda3- swap:4096MiB   #sda4- /zz:remaining 
-
+# You need to control the number of partition which is 4.  
 
 # Format and activate  partition：
 mkfs.ext4 /dev/sda1
@@ -23,25 +23,7 @@ mount /dev/sda4 /mnt/zz
 
 #test network：
 ping -c 4 www.baidu.com
-#--------------------------------------#--------------------------------------
-# Add the sourse list：
-#echo "Server = http://mirrors.ustc.edu.cn/archlinux/\$repo/os/\$arch" > /etc/pacman.d/mirrorlist 
-sed -i '1i\Server = http://mirrors.ustc.edu.cn/archlinux/\$repo/os/\$arch' /etc/pacman.d/mirrorlist 
 
-
-
-# Set the pacman.conf 1
-echo "[multilib]" >> /etc/pacman.conf
-echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
-# wiki yaourt 
-
-# Set the pacman.conf 2
-echo "[archlinuxcn]" >> /etc/pacman.conf
-echo "#The Chinese Arch Linux communities packages." >> /etc/pacman.conf
-echo "SigLevel = Optional TrustAll" >> /etc/pacman.conf
-echo "Server   = https://mirrors.ustc.edu.cn/archlinuxcn/\$arch" >> /etc/pacman.conf
-
-#--------------------------------------#--------------------------------------
 # update the mirrors data
 pacman -Sy
 
@@ -150,6 +132,33 @@ pacman -S xf86-video-vesa
 
 # Set lxdm starts in the init：
 systemctl enable lxdm
+
+
+
+
+# FUTURE WORK!  FUTURE WORK!  FUTURE WORK!  FUTURE WORK!  FUTURE WORK!  FUTURE WORK!
+
+#--------------------------------------#--------------------------------------
+# Add the sourse list：
+#echo "Server = http://mirrors.ustc.edu.cn/archlinux/\$repo/os/\$arch" > /etc/pacman.d/mirrorlist 
+sed -i '1i\Server = http://mirrors.ustc.edu.cn/archlinux/\$repo/os/\$arch' /etc/pacman.d/mirrorlist 
+
+
+
+# Set the pacman.conf 1
+echo "[multilib]" >> /etc/pacman.conf
+echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
+# wiki yaourt 
+
+# Set the pacman.conf 2
+echo "[archlinuxcn]" >> /etc/pacman.conf
+echo "#The Chinese Arch Linux communities packages." >> /etc/pacman.conf
+echo "SigLevel = Optional TrustAll" >> /etc/pacman.conf
+echo "Server   = https://mirrors.ustc.edu.cn/archlinuxcn/\$arch" >> /etc/pacman.conf
+
+#--------------------------------------#--------------------------------------
+
+
 
 #Install the software：
 pacman -S sudo make gcc ntfs-3g eog awesome tar uget leafpad xarchiver bcloud filezilla chromium firefox firefox-i18n-zh-cn firefox-adblock-plus flashplugin epdfview tigervnc yaourt wps-office
