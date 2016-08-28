@@ -156,6 +156,9 @@ echo "#The Chinese Arch Linux communities packages." >> /etc/pacman.conf
 echo "SigLevel = Optional TrustAll" >> /etc/pacman.conf
 echo "Server   = https://mirrors.ustc.edu.cn/archlinuxcn/\$arch" >> /etc/pacman.conf
 
+
+# update mirrors :
+pacman -Sy
 #--------------------------------------#--------------------------------------
 
 
