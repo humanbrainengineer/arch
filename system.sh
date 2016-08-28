@@ -1,3 +1,5 @@
+
+#Part 1 ◆◆◆
 #!/bin/bash
 
 #LAST test time : 2016-08-28
@@ -7,6 +9,8 @@
 # sda1- boot:512MiB   #sda2- /:61440MiB    #sda3- swap:4096MiB   #sda4- /zz:remaining 
 # You need to control the number of partition which is 4.  
 
+
+#Part 2 ◆◆◆
 # Format and activate  partition：
 mkfs.ext4 /dev/sda1
 mkfs.ext4 /dev/sda2
@@ -16,6 +20,8 @@ mkfs.ext4 /dev/sda3
 mkswap /dev/sda3
 swapon /dev/sda3
 
+
+#Part 3 ◆◆◆
 # Mount r partition：
 mount /dev/sda2 /mnt   # root p.
  
@@ -24,6 +30,8 @@ mkdir /mnt/zz
 mount /dev/sda1 /mnt/boot
 mount /dev/sda4 /mnt/zz
 
+
+#Part 4 ◆◆◆
 #test network：
 ping -c 4 www.baidu.com
 
@@ -39,7 +47,7 @@ genfstab -U -p /mnt >> /mnt/etc/fstab
 #Check the fstab：
 # nano /mnt/etc/fstab
 
-
+#Part 5 ◆◆◆
 # Set the base system：
 arch-chroot /mnt /bin/bash
 #--------------------------------------
@@ -96,6 +104,10 @@ exit    # exit env
 umount -R /mnt/boot
 umount -R /mnt
 reboot
+
+
+
+#Part 6 ◆◆◆
 #=============================================================================================================
 #=============================================================================================================
 #=============================================================================================================
@@ -136,13 +148,11 @@ pacman -S xf86-video-vesa
 # Set lxdm starts in the init：
 systemctl enable lxdm
 
-
-
-
+#Part 7 ◆◆◆
 # FUTURE WORK!  FUTURE WORK!  FUTURE WORK!  FUTURE WORK!  FUTURE WORK!  FUTURE WORK!
 
 #--------------------------------------#--------------------------------------
-# Add the sourse list：
+# Add the sourse list：                    https://www.archlinux.org/mirrorlist/         https://www.archlinux.org/mirrors/
 #echo "Server = http://mirrors.ustc.edu.cn/archlinux/\$repo/os/\$arch" > /etc/pacman.d/mirrorlist 
 sed -i '1i\Server = http://mirrors.ustc.edu.cn/archlinux/\$repo/os/\$arch' /etc/pacman.d/mirrorlist # this line can change to other mirroradress.
 
@@ -163,6 +173,8 @@ echo "Server   = https://mirrors.ustc.edu.cn/archlinuxcn/\$arch" >> /etc/pacman.
 # update mirrors :
 pacman -Sy
 #--------------------------------------#--------------------------------------
+
+
 
 
 
