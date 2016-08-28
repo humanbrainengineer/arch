@@ -311,3 +311,17 @@ echo "Reboot the machine after 3 seconds："
 sleep 3
 reboot
 
+
+#Part 10 ◆◆◆
+# http://www.scipy.org/install.html
+pacman -S python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+
+
+
+
+
+
+
+
+
+
