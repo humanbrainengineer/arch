@@ -167,7 +167,7 @@ pacman -Sy
 
 
 #Install the software：
-pacman -S sudo make gcc ntfs-3g eog awesome tar uget leafpad xarchiver bcloud filezilla chromium firefox firefox-i18n-zh-cn firefox-adblock-plus flashplugin epdfview tigervnc yaourt wps-office
+pacman -S sudo make gcc ntfs-3g eog awesome tar uget leafpad wget xarchiver bcloud filezilla chromium firefox firefox-i18n-zh-cn firefox-adblock-plus flashplugin epdfview tigervnc yaourt wps-office
 
 #INstall the  typewriting :
 pacman -S fcitx fcitx-configtool fcitx-gtk2 fcitx-gtk3 fcitx-googlepinyin fcitx-qt4
