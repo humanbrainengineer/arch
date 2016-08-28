@@ -141,7 +141,7 @@ systemctl enable lxdm
 #--------------------------------------#--------------------------------------
 # Add the sourse list：
 #echo "Server = http://mirrors.ustc.edu.cn/archlinux/\$repo/os/\$arch" > /etc/pacman.d/mirrorlist 
-sed -i '1i\Server = http://mirrors.ustc.edu.cn/archlinux/\$repo/os/\$arch' /etc/pacman.d/mirrorlist 
+sed -i '1i\Server = http://mirrors.ustc.edu.cn/archlinux/\$repo/os/\$arch' /etc/pacman.d/mirrorlist # this line can change to other mirroradress.
 
 
 
