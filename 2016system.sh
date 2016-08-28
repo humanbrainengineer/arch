@@ -181,8 +181,12 @@ pacman -Sy
 #Install the software：
 pacman -S sudo make gcc ntfs-3g eog awesome tar uget leafpad wget xarchiver bcloud filezilla chromium firefox firefox-i18n-zh-cn firefox-adblock-plus flashplugin epdfview tigervnc yaourt wps-office
 
-#INstall the  typewriting :
-pacman -S fcitx fcitx-configtool fcitx-gtk2 fcitx-gtk3 fcitx-googlepinyin fcitx-qt4
+#INstall the  typewriting :    https://wiki.archlinux.org/index.php/Fcitx_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#.E5.AE.89.E8.A3.85
+
+pacman -S fcitx-sunpinyin # 201608 test OK！
+pacman -S fcitx fcitx-configtool fcitx-gtk2 fcitx-gtk3 fcitx-googlepinyin fcitx-qt4 
+
+
 
 #Install virtual machine
 pacman -S virtualbox   #wine q4wine playonlinux   #virtualbox: /sbin/rcvboxdrv setup
