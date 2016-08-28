@@ -317,6 +317,8 @@ reboot
 pacman -S python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 
 
+# it is not fit for the machine learning ! when i use the geany to run before code. It outputs error.
+
 
 
 
