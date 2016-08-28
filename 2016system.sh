@@ -179,7 +179,7 @@ pacman -Sy
 #Part 8 ◆◆◆
 
 #Install the software：
-pacman -S sudo make gcc ntfs-3g eog awesome tar uget leafpad wget xarchiver bcloud filezilla chromium firefox firefox-i18n-zh-cn firefox-adblock-plus flashplugin epdfview tigervnc yaourt wps-office
+pacman -S sudo make gcc geany ntfs-3g eog awesome tar uget leafpad wget xarchiver bcloud filezilla chromium firefox firefox-i18n-zh-cn firefox-adblock-plus flashplugin epdfview tigervnc yaourt wps-office
 
 #INstall the  typewriting :    https://wiki.archlinux.org/index.php/Fcitx_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#.E5.AE.89.E8.A3.85
 
