@@ -176,7 +176,7 @@ pacman -Sy
 
 
 
-
+#Part 7 ◆◆◆
 
 #Install the software：
 pacman -S sudo make gcc ntfs-3g eog awesome tar uget leafpad wget xarchiver bcloud filezilla chromium firefox firefox-i18n-zh-cn firefox-adblock-plus flashplugin epdfview tigervnc yaourt wps-office
@@ -289,7 +289,7 @@ systemctl start sshd
 
 #----------------------------------
 
-
+#Part 8 ◆◆◆
 #Configure input：
 # nano ~/.profile
 
