@@ -1,4 +1,6 @@
 
+#Part 0: pacman -S Arch-Anywhere
+
 #Part 1 ◆◆◆
 #!/bin/bash
 
