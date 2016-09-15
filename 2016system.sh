@@ -1,5 +1,5 @@
 
-#Part 0: pacman -S Arch-Anywhere
+#Part 0: pacman -S Arch-Anywhere     #https://arch-anywhere.org/
 
 #Part 1 ◆◆◆
 #!/bin/bash
